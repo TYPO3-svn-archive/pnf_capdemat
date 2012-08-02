@@ -1,0 +1,8 @@
+plugin.tx_pnfcapdemat_pi1 {
+	# cat=plugin.tx_pnfcapdemat_pi1/file/a; type=file[html]; label=Template to use: The template file to use.
+	template = EXT:pnf_capdemat/res/default.html
+	# cat=plugin.tx_pnfcapdemat_pi1/other/a; type=string; label=CapDémat URL: CapDémat URL.
+	url = 
+	# cat=plugin.tx_pnfcapdemat_pi1/other/b; type=int; label=Timeout: Get url content timeout (seconds).
+	timeout = 
+}

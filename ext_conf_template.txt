@@ -1,0 +1,4 @@
+# cat=Basic//a; type=string; label=CapDémat URL: CapDémat URL.
+url=
+# cat=Basic//b; type=int+; label=Timeout: Durée maximum d'attente de réponse du serveur (seconds).
+timeout=5

@@ -1,0 +1,12 @@
+plugin.tx_pnfcapdemat_pi1 {
+	template = {$plugin.tx_pnfcapdemat_pi1.template}
+	url = {$plugin.tx_pnfcapdemat_pi1.url}
+	timeout = {$plugin.tx_pnfcapdemat_pi1.timeout}
+	
+	categoryOrderByXML = 0
+	renderFields {
+		image {
+			wrap = <img src="|" />
+		}
+	}
+}

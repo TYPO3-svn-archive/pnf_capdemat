@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>flexform</type>
+		<description>Language labels for plugin flexform &quot;tx_cigdocspi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="general">Configuration</label>
+			<label index="template">Fichier de template</label>
+			<label index="url">Serveur CapDémat</label>
+			<label index="nodes">Catégories à afficher</label>
+		</languageKey>
+	</data>
+</T3locallang>
