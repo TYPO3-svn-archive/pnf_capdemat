@@ -409,7 +409,7 @@ class tx_pnfcapdemat_pi1 extends tslib_pibase {
 		// TSconfig
 		
 		// Flexform
-		$pi_flexform = t3lib_div::xml2array($config['row']['pi_flexform']);	
+		$pi_flexform = (!empty($config['row']['pi_flexform'])) ? (t3lib_div::xml2array($config['row']['pi_flexform'])) : (array('data' => array()));
 		$url = $pi_flexform['data']['sDEF']['lDEF']['url']['vDEF'] ? $pi_flexform['data']['sDEF']['lDEF']['url']['vDEF'] : $url;
 		
 		$this->conf['url'] = $url;
