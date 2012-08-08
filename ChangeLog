@@ -1,3 +1,7 @@
+2012-08-08 Emilie Sagniez  <emilie@in-cite.net>
+	* Fix: backend error to insert plugin
+	* Version changed to 0.1.0
+	
 2012-08-02 Emilie Sagniez  <emilie@in-cite.net>
 
 	* Version stable
